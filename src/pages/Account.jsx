@@ -16,6 +16,7 @@ function Account() {
 
   return (
     <div className='account'>
+        <img src={firebase.user.reloadUserInfo.photoUrl} alt="" />
         <h1>hi {firebase.user.displayName} welcome</h1>
         <button className='btn' onClick={firebase.logOut}>Log Out</button>
     </div>
