@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.signup h2 {
+  font-size: 24px;
+  color: #ce3750
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.account .btn {
+  padding: 12px;
+  background: #ce3750;
+  box-shadow: 0 0 8px rgba(15, 13, 13, 0.1);
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup .btn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 12px;
+  background: white;
+  box-shadow: 0 0 8px rgba(15, 13, 13, 0.1);
+  color: #ce3750;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.signup .btn:hover {
+  background: #ce3750;
+  color: #fff;
+}
+
